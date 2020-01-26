@@ -16,7 +16,8 @@ const Navi = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
-
+console.log("test git");
+console.log("test git");
   return (
     <div>
       <Navbar color="light" light expand="md">
